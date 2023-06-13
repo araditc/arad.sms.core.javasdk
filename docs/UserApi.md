@@ -16,8 +16,8 @@ Method | HTTP request | Description
 ```java
 // Import classes:
 //import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
+//import arad.sms.core.javaclient.ApiException;
+//import arad.sms.core.javaclient.Configuration;
 //import io.swagger.client.auth.*;
 //import io.swagger.client.api.UserApi;
 

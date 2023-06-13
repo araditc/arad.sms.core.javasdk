@@ -1,3 +1,4 @@
+
 # swagger-java-client
 
 Arad SMS Core Api V1
@@ -70,7 +71,7 @@ Then manually install the following JARs:
 
 Please follow the [installation](#installation) instruction and execute the following Java code:
 
-```java
+## java
 import io.swagger.client.*;
 import io.swagger.client.auth.*;
 import io.swagger.client.model.*;
@@ -82,22 +83,7 @@ import java.util.*;
 public class MessageApiExample {
 
     public static void main(String[] args) {
-        ApiClient defaultClient = Configuration.getDefaultApiClient();
 
-        // Configure OAuth2 access token for authorization: OAuth2
-        OAuth OAuth2 = (OAuth) defaultClient.getAuthentication("OAuth2");
-        OAuth2.setAccessToken("YOUR ACCESS TOKEN");
-
-        MessageApi apiInstance = new MessageApi();
-        AradBulkMessage body = new AradBulkMessage(); // AradBulkMessage | 
-        Boolean returnLongId = true; // Boolean | 
-        String apiVersion = "apiVersion_example"; // String | 
-        try {
-            apiInstance.apiMessageBulkPost(body, returnLongId, apiVersion);
-        } catch (ApiException e) {
-            System.err.println("Exception when calling MessageApi#apiMessageBulkPost");
-            e.printStackTrace();
-        }
     }
 }
 import io.swagger.client.*;

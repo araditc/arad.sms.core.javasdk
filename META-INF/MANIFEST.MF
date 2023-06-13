@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Main-Class:
+Class-Path: httpcore-4.3.3.jar swagger-annotations-2.0.0.jar gson-fire-1
+ .8.3.jar threetenbp-1.3.5.jar commons-codec-1.6.jar gson-2.8.2.jar jack
+ son-databind-2.15.2.jar httpmime-4.3.6.jar httpclient-4.3.6.jar javax.a
+ nnotation-api-1.3.2.jar okio-1.6.0.jar httpasyncclient-4.0.2.jar okhttp
+ -2.7.5.jar commons-logging-1.1.3.jar jackson-core-2.15.2.jar logging-in
+ terceptor-2.7.5.jar jackson-annotations-2.15.2.jar json-20140107.jar un
+ irest-java-1.4.8.jar httpcore-nio-4.3.2.jar
+
