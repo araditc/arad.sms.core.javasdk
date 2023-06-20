@@ -171,23 +171,7 @@ public class UserApi {
         return call;
     }
 
-    public String getAccessToken() {
 
-
-        Unirest.setTimeouts(0, 0);
-        HttpResponse<String> response ;
-        try {
-            response = Unirest.post("https://api.aradvas.ir/connect/token")
-                    .header("Content-Type", "application/x-www-form-urlencoded")
-                    .field("username", "username")
-                    .field("password", "password")
-                    .asString();
-        } catch (UnirestException e) {
-            throw new RuntimeException(e);
-        }
-
-       return response.getBody();
-    }
 
 
 
